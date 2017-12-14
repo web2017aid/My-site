@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-Type" content="text/html; charset=utf-8"/>
+	<title>Select</title>
+	<link rel="stylesheet" type="text/css" href="Sh.css">
+
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo"></div>
+			<a href="indexx.html"><img src="images/lo.png" alt="Логотип"/></a>
+			<div id="menu">
+			<ul>
+			<li><a class="current" href="indexx.html">Маалымат</a></li>
+			<li><a href="page.html">Талапкер</a></li>
+			<li><a href="Kattaluu.html">Катталуу</a></li>
+			<li><a href="Shailoo.html">Онлайн шайлоо</a></li>
+			</ul>
+			</div>
+		<div id="content">
+			<h1> СИЗДИН ДОБУШ- БИЗДИН КЕЛЕЧЕК!</h1><br>
+			<h2>Танданыз</h2>
+			</div><br>
+    <input type="radio" value="1" name="1" seleced cheked>Омурбек Бабанов</br></br>
+    <input type="radio" value="2" name="1" seleced cheked>Темир Сариев</br></br>
+    <input type="radio" value="3" name="1" seleced cheked>Бакыт Торобаев</br></br>
+    <input type="radio" value="4" name="1" seleced cheked>Сооронбай Жээнбеков</br></br>
+    <input type="radio" value="5" name="1" seleced cheked>Омурбек Текебаев</br></br>
+    <input type="radio" value="6" name="1" seleced cheked>Рита Карасартова</br></br>
+    <input type="radio" value="7" name="1" seleced cheked>Жанар Акаев</br></br>
+    <input type="radio" value="8" name="1" seleced cheked>Сапар Исаков</br></br>
+    <input type="radio" value="9" name="1" seleced cheked>Канатбек Исаев</br></br>
+     <input type="radio" value="10" name="1" seleced cheked>Адахан Мадумаров</br></br>
+    <input type="radio" value="11" name="1" seleced cheked>Садыр Жапаров</br></br>
+    <input type="radio" value="12" name="1" seleced cheked>Турсунбай Бакир уулу</br></br>
+
+<a href="Google.com">ОК</a>
+
+
+
+			
+		</div><br><br>
+		<div id="MyClockDisplay"></div>
+        <script type="text/javascript">
+    	  
+        function ShowTime(){
+         	var date=new Date();
+            var h=date.getHours();
+	        var m=date.getMinutes()
+	        var s=date.getSeconds();
+
+	        if(h==0){	
+		    h=12;
+	        }
+	        if(h<12){
+		    h=h-12;
+	        }
+	        h=(h<10)?"0"+h:h;
+	        m=(m<10)?"0"+m:m;
+	        s=(s<10)?"0"+s:s;
+
+	       var time=h+':'+m+":"+s;
+	       var colorString='#'+h+m+s;
+           document.getElementById("MyClockDisplay").innerText=time;
+	       document.getElementById("MyClockDisplay").textContent=time;
+
+          setTimeout(ShowTime,1000);
+         }
+
+         ShowTime();
+	        
+        </script>
+
+		<div id ="footer">
+			<p>Бишкек. Борборук шайлоо коммисиясы<a href="google.com">Shailoo.kg</a></p>
+		</div>
+		</a>
+	</div>
+</body>
+</html>

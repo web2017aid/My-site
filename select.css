@@ -1,0 +1,63 @@
+body{
+	background: url(images/n.png);
+}
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+#wrapper{
+	width:992px;
+	margin: auto;
+
+}
+
+}
+#header{
+	overflow: hidden;
+}
+#logo{
+	width: 226px;
+	height: 170px;
+	float: left;
+	margin-left: -222px;
+}
+#menu{
+	width: 766px;
+	height: 40px;
+	background: url(images/www.png)no-repeat;
+	float: center;
+}
+#menu ul {
+padding-left: 30px;
+padding-top: 14px;
+overflow: hidden;
+}
+#menu ul li{
+	float: left;
+	font: bold 14px Times New Romen;
+	margin-right: 100px;
+}
+#menu ul li a{
+	color:Black;
+	text-decoration:none;
+	
+}
+#menu.current, #menu ul li a:hover{
+	text-decoration: underline;
+}
+#content{
+	width: 590px;
+	margin: 0 auto;
+}
+.red-headline{
+	font-size: 30px;
+	font-weight: bold;
+	color:#a03131;
+}
